@@ -218,3 +218,5 @@ Epoch 30/30
 缺失 10 筆詐欺交易
 
 以錯誤標記 404 筆合法交易為代價
+
+參考網址:https://keras.io/examples/structured_data/imbalanced_classification/
