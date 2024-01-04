@@ -210,4 +210,9 @@ Epoch 30/30
 112/112 - 1s - loss: 3.3463e-07 - fn: 5.0000 - fp: 3602.0000 - tn: 223827.0000 - tp: 412.0000 - precision: 0.1026 - recall: 0.9880 - val_loss: 0.0171 - val_fn: 10.0000 - val_fp: 322.0000 - val_tn: 56564.0000 - val_tp: 65.0000 - val_precision: 0.1680 - val_recall: 0.8667 - 781ms/epoch - 7ms/step
 <keras.src.callbacks.History at 0x782b95ee2740>
 ```
-#
+# 結論
+訓練結束時，在 56,961 筆驗證交易中，我們：
+
+正確識別其中65個為欺詐
+缺失 10 筆詐欺交易
+以錯誤標記 404 筆合法交易為代價
