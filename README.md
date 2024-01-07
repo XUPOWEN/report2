@@ -2,7 +2,8 @@
 南華大學跨領域-人工智慧期末報告
 11124127王星圍 11124128蘇佑庭 11124130邱述陽
 # 介紹
-此範例查看 Kaggle 信用卡詐欺偵測 資料集，示範如何針對具有高度不平衡類別的資料訓練分類模型。請先下載連結文件到Colaboratory，連結:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+此範例查看 Kaggle 信用卡詐欺偵測 資料集，示範如何針對具有高度不平衡類別的資料訓練分類模型。
+## Kaggle連結:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 # 首先，對 CSV 資料進行向量化
 ```
 import csv
